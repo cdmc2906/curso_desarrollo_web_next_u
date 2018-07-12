@@ -1,0 +1,61 @@
+cual es la version de git
+git --version
+
+agregar el nombre y correo electronico	
+git config --global user.name "christian araujo"
+git config --global user.eail "christian.araujo@outlook.com"
+
+
+crear repositorio vacio
+git init: iniciar repositorio
+
+clonar repositorio
+git clone identificador_del_repositorio_a_clonar carpeta_de_destino:
+
+
+git clone https://github.com/MariaClaraNextU/Cenicienta.git
+
+opciones git  log
+https://www.thegeekstuff.com/2014/04/git-log/
+
+
+agregar un archivo al area de preparacioon
+git add nombre_del_archivo : añadir archivos al area de preparacion
+
+hacer un commit
+git commit -m "Mensaje descriptivo de los cambios desde la ultima vez de commit" : ejecutar un commit
+
+ver el estado de un proyecto para recordar que esta hecho
+git status: verificar el estado del repositorio
+
+ver el log del repositorio
+git log: ver el historial de commits
+
+git diff permite ver diferencia entre commits
+para comparar de deben usar los numeros de comit pero por facilidad se pueden usar los primeros 5 numeros
+
+regresar a un commit anterior
+git checkout numero_del_comit: volver a la version indicada
+
+
+******
+l4 las ramas
+git branch crea una rama para trabajar en el mismo proyecto pero sin modificar el principal
+
+git branch nombre_rama
+
+git checkout envia la nueva rama al proyecto
+git checkout nombre_rama
+
+para añadir todos los archivos de la carpeta a la rama se usa el .
+
+git add .
+
+git commit para enviar los cambios en la rama
+
+para unir las versiones de la nueva rama y la rama principal se usa git merge y el nombre de la rama que se unira a la principal
+
+para cambiar entre ramas se puede usar git checkout
+
+para ver todas las ramas del proyecto se usa git branch 
+y luego se usa git checkout para entrar en la rama

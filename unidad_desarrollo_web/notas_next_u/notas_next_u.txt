@@ -1,0 +1,59 @@
+p - parrafos
+br - salto de linea
+em - cursiva
+strong - negrita
+listas
+	ordenadas - tienen numeros al inicio como viñeta - ol inicio li para items
+	no ordenadas - la viñeta del inicio es un * o un circulo - ul al inicio fin li al final
+	tipo diccionario - tienen un formato al de un diccionario - dl - inicio fin dt termino dl definicion
+
+img
+	src (relativa (solo la carpeta del proy) - absoluta (completa))
+	alt
+	title
+	width - ancho
+	height - alto 
+	para que la imagen no se distorcione solo es recomendable cambiar uno de los dos atributos de la imagen
+
+etiquetas semanticas
+	dan significado a las partes de una pagina web solo para dar formato para los buscadores y no reordenan el contenido de la pagina web
+
+header - cabecera
+nav - enlaces navigacion
+section - agrupar contenidos refenciando a un mismo tema en general
+article - cualquier contenido
+aside -  submenu de navegacion lateral
+footer - pie de pagina creadores direccion copyright
+
+svg tiene sub etiquetas para construir figuras de cualquier tipo
+
+circle
+	cx - eje x re
+	cy - eje 7
+	r - radio
+	fill -  color relleno
+	stroke - color borde
+	stroke-width - grosor borde
+rect
+	width
+	height
+	fill
+	stroke 
+	stroke-width
+polygon
+
+elipse
+
+line 
+	x1 y1 punto inicio
+	x2 y2 punto fin
+polilyne
+	points - par de coordenadas separadas por , y espacio entre ellos para separar coordendas
+
+
+svg edit puede generar archivos svg
+inkescape
+	
+
+tienen los atr para color tamaño
+
