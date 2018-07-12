@@ -59,3 +59,7 @@ para cambiar entre ramas se puede usar git checkout
 
 para ver todas las ramas del proyecto se usa git branch 
 y luego se usa git checkout para entrar en la rama
+
+
+
+desde alter 1
