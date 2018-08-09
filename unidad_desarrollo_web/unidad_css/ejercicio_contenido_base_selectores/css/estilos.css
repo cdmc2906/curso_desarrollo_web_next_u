@@ -1,14 +1,11 @@
 body{
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
-
-	font: verdana;
+	margin: 20px;
+	font-family: Verdana;
 }
 
 .resaltado{
-	background: yellow;
+	background-color: yellow;
+	color: black;
 }
 
 #menu-principal{
@@ -16,16 +13,14 @@ body{
 }
 
 h1.titulo{
-	color:aliceblue;
+	background-color: aliceblue;
 	text-align: center;
 	padding: 10px;
 
 }
 
 footer{
-	border-top: 1px;
-	border-style: black;
-	color:black;
+	border-top: solid 1px black;
 	padding-top: 10px;
 	text-align: center;
 
