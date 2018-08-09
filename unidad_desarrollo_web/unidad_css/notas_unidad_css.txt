@@ -41,3 +41,6 @@ selector descendente
 no exije que sea el primer hijo directo
 
 ul li
+
+
+SEUDO CLASES
