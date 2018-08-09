@@ -1,0 +1,43 @@
+selectores de etiqueta
+se usa el nombre de la etiqueta html
+
+selector id
+aplicar a un solo elemento
+usa la propiedad id de las etiquetas
+en la hoja de estilos se usa # seguido del id de la etiqueta 
+
+selector de clase
+aplicar a varios elementos
+en la hoja de estilos se usa . seguido del id de la clase
+
+selectores de atributos (selectores avanzados)
+busca entre los atributos id o class
+
+para seleccionar todas las a que tengan href --> a[href]
+para seleccionar todas las a que tengan href y tengan en href='http://www.google.com' --> a[href='http://www.google.com']
+
+para buscar al final $
+para buscar al inicio ^
+para buscar entre los valores multiples separados con espacio ~ 
+para buscar al principio o en todo el contenido se usa |
+para buscar todo *
+
+SELECTOR UNIVERSAL 
+el * puede ser usado como selector y aplica a todo el documento
+
+SELECTOR ADIACENTE
+se usa el + para indicar que xejemplo
+
+h1+h2 es para que solo se aplique a los h2 que esten precedidos por h1 
+
+SELECTOR DE HERMANOS
+todos los hijos(hermanos) de la etiqueta padre ~ hijo
+
+hijo directo
+aplica a todos los hijos directos del padre 
+padre >hijo
+
+selector descendente 
+no exije que sea el primer hijo directo
+
+ul li
